@@ -43,8 +43,9 @@
         }
         */
         // A
-        $dir = "./new_folder";
-        $allowed =["jpeg"];
+        $dir = "C:/Users/SANJAY/OneDrive/Pictures";
+        $url = "http://localhost/Pictures";
+        $allowed =["jpeg","jpg"];
         // $allowed =["png","jpg","jpeg"];
         if (file_exists($dir)) {
             $dp = opendir($dir);
@@ -56,7 +57,7 @@
                     // echo $file."<br>";
                     // echo "<hr>";
                     if(in_array($ext,$allowed)){
-                        echo "<img src='new_folder/$file' height='300px' width='430px'>";
+                        echo "<img src='$url/$file' height='300px' width='430px'>";
                     }
                }
             }
