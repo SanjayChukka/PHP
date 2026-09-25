@@ -10,7 +10,8 @@
         $to = "sanjaychukka1312@gmail.com";
         $subject = "Sending a Mail";
         $message = "Sent a mail through php using SMPT configuration settings in php";
-        if(mail($to,$subject,$message)){
+        $header = "Sender : Sanjay Chukka For testing mail in PHP";
+        if(mail($to,$subject,$message,$header)){
             echo "Mail Sent Successfully";
         }
         else{
