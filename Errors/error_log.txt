@@ -1,0 +1,9 @@
+Error : [2] Undefined variable $User - C:\xampp\htdocs\c_php\Basics\Errors\errors.php : 111
+Error : [2] Undefined variable $User - C:\xampp\htdocs\c_php\Basics\Errors\errors.php : 111
+Error : [2] Undefined variable $User - C:\xampp\htdocs\c_php\Basics\Errors\errors.php : 111
+Error : [2] Undefined variable $User - C:\xampp\htdocs\c_php\Basics\Errors\errors.php : 111
+Error : [2] Undefined variable $User - C:\xampp\htdocs\c_php\Basics\Errors\errors.php : 111
+Error : [2] Undefined variable $User - C:\xampp\htdocs\c_php\Basics\Errors\errors.php : 112
+Error : [2] Undefined variable $User - C:\xampp\htdocs\c_php\Basics\Errors\errors.php : 112
+Error : [2] Undefined variable $User - C:\xampp\htdocs\c_php\Basics\Errors\errors.php : 112
+Error : [2] Undefined variable $User - C:\xampp\htdocs\c_php\Basics\Errors\errors.php : 116

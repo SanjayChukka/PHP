@@ -15,7 +15,9 @@
         date_default_timezone_set("Asia/Kolkata");
         echo date_default_timezone_get(); // Asia/Kolkata
         echo date(": h:i:s A") . "<hr>";
-
+        // mktime()
+        $d = mktime(0,0,0,12,13,2002);
+        echo $d;
         // time()
         // echo time(); // 1789992962 Unix timestamp.
         // This number represents the number of seconds elapsed 
