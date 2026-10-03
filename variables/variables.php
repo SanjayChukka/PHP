@@ -11,10 +11,14 @@
     echo $booleanValue . "<br>";
 
 
-    $x = 10;
+    $x = "10";
+    var_dump($x);
     $y = 20;
     $z = $x + $y;
-    echo 'The sum of ' . $x . ' and ' . $y . ' is: ' . $z;
+    echo $z;
+    var_dump($z);       
+
+    // echo 'The sum of ' . $x . ' and ' . $y . ' is: ' . $z;
 
     $a = 10.0;
     $b = 2;
