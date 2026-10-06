@@ -39,4 +39,41 @@ foreach ($numbers as $number) {
 
 echo "Largest Number: " . $largest;
 */
+
+/* Q11
+$text = "Programming";
+$count = 0;
+for($i = 0; $i <= strlen($text)-1; $i++){
+    if
+    (
+        $text[$i]=='a'||
+        $text[$i]=='e'||
+        $text[$i]=='i'||
+        $text[$i]=='o'||
+        $text[$i]=='u')
+    {
+        $count++;
+    }
+}
+
+echo "Count of Vowels is : ".$count;
+*/
+
+/* Q12
+$numbers = [10, 20, 10, 30, 20, 40, 30];
+$new=[];
+
+foreach($numbers as $num){
+    if(in_array($num,$new)){
+        continue;
+    }
+    else{
+        array_push($new,$num);
+    }
+}
+echo "<pre>";
+print_r($new);
+*/
+
+
 ?>
